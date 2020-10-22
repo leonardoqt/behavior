@@ -1,0 +1,22 @@
+                                          ----------------
+                   -----------------------| Common space |------------------------
+                   |                      ----------------                       |
+                   |                              |                              |
+             ---------------                ---------------                ---------------
+          ---| Participant |             ---| Participant |             ---| Participant |
+          |  ---------------             |  ---------------             |  ---------------
+          |        |     |               |        |     |               |        |     |
+    -------------  |  -------      -------------  |  -------      -------------  |  -------
+    |Self status|  |  |Guide|      |Self status|  |  |Guide|      |Self status|  |  |Guide|
+    -------------  |  -------      -------------  |  -------      -------------  |  -------
+                   |                              |                              |
+                   |                       ----------------                      |
+                   ------------------------| Action space |-----------------------
+                                           ----------------
+
+
+The Guide operates on the space of {Self status & Common space}, gives the probability for each action.
+One Action is taken, and it influences Self status and Common space.
+Participant also gets feedback from the Action that then change the Guide in some direction.
+
+An action chain may be shared among Participants as an effect of learning
